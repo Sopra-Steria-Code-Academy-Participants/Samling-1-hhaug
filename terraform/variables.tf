@@ -9,7 +9,7 @@ variable "rg_name" {
   default     = "rc-hhaug"
 }
 
-variable "location" {
+variable "rg_location" {
   type        = string
   description = "Azure region for Right Cloud resources"
   default     = "West Europe"
