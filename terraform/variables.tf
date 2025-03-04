@@ -6,7 +6,7 @@ variable "environment" {
 variable "rg_name" {
   type        = string
   description = "The resource group name"
-  default     = "TODO"
+  default     = "rc-hhaug"
 }
 
 variable "location" {
@@ -18,11 +18,11 @@ variable "location" {
 variable "app_service_plan" {
   type        = string
   description = ""
-  default     = "CodeAcademy-JAVA-ServicePlan-MLK"
+  default     = "CodeAcademy-JAVA-ServicePlan-hhaug"
 }
 
 variable "app_service" {
   type        = string
   description = ""
-  default     = "CodeAcademy-JAVA-Service-MLK"
+  default     = "CodeAcademy-JAVA-Service-hhaug"
 }
